@@ -2,6 +2,16 @@
 using FutureValue.Models;
 public class HomeController : Controller
 {
+    public IActionResult Contact()
+    {
+        return View();
+    }
+
+    public IActionResult About()
+    {
+        return View();
+    }
+
     [HttpGet]
     public IActionResult Index()
     {
